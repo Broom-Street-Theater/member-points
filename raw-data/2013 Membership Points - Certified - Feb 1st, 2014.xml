@@ -1,0 +1,3305 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Taylor Kokinos</Author>
+  <LastAuthor>Stan</LastAuthor>
+  <LastPrinted>2014-01-15T12:11:13Z</LastPrinted>
+  <Created>2013-01-21T16:03:58Z</Created>
+  <LastSaved>2014-02-01T19:42:19Z</LastSaved>
+  <Version>11.5606</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13635</WindowHeight>
+  <WindowWidth>28050</WindowWidth>
+  <WindowTopX>735</WindowTopX>
+  <WindowTopY>-135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21" ss:Name="Excel Built-in Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s37">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38" ss:Parent="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="2013 points">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="141" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="130.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="35.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="45"/>
+   <Column ss:AutoFitWidth="0" ss:Width="53.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:AutoFitWidth="0" ss:Width="36.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="44.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="48.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="50.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="61.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="26.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="27.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="24"/>
+   <Column ss:AutoFitWidth="0" ss:Width="35.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="46.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="35.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="41.25"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Class</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Not the Artist</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Superhero Boogie</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Orphan Train</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Lekker Mann</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Waiting Room</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Triggered</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sweet Lowdown</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Cassandra's Gift</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">TD</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">AD</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">DD</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Board</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Board Member</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">100 bonus</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2013 Total</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Member 2014</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Previous Lifetime Total</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Current Lifetime Total</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Andrew Miller-Rhoads</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">550</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">? 850+</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">? 1400+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Benjamin Otto</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1900</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Betsy Wood</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Callen Harty</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">7700</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">8100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Christan Cook</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">850</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1350</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dan Myers</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">750</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Don Dexter</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dustin Eyestone</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Eric Holz</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">1375</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">890</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">2265</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Fred Allen Self</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">425</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">425</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Heather Renken</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">1050</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">10125</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">11175</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Jan Levine Thal</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">1050</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">3975</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">5025</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Jaz Campbell</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">800</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Joe Lutz</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">5025</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">6225</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">John Renken</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">375</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">475</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">775</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">John Siewert</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Kate Boomsa</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">3175</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">3675</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Luke Kokinos</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">1650</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1025</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">2675</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Manny Jones</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">650</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">4350</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Mary Fairweather Dexter</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">800</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Matt Defour</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">450</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Malissa Petterson (Lamont)</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">325</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">775</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Nancy Craig</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1750</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">2150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Rob Matsushita</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1750</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">2200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Ryan Smith</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Scott Feiner</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">1025</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">6485</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">7510</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Taylor Kokinos</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">1150</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2825</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">3975</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tim Graf</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tracy Smith</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Tyler Falco Schott</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">750</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">? 200+</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">? 950+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Aaron Boehm</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Aaron Nemoye</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Adam Williams</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Aja Heuss</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Al Hart</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Alan Dean Foster</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Alex Soglin</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Ali Lemus</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Alicia McCanna</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Andrea Kleiner</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Andy Lindgren</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">350</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Ann Blust</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Arthur Korb</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Aurelia Khorsand</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Autumn Shiley</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1775</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">2075</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Ben Doran</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">350</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">5250</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">5600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Ben Wydeven</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Betty Diamond</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Brandon Barwick&#160;&#160;</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Brendan Hartman</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1475</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Brent West</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1125</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1325</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Brian Hill</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Brian Wild</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">9800</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">10100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Bronwyn Valley</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Bryan Royston</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Catlin Higgins</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Caty Magnuson</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">125</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Chelsea Dinegan Davis</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Christina Beller</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">4600</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">4675</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Clarice Lafayette</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Collin Erickson</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">5300</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">5500</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Colman</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">D B Petersen</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Dace</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">125</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Dana Pellebon</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1500</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Devorah Sherman</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Diego Nieto</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Donnovan Moen</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Drew Palasini</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Eilish Valley</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Elizabeth Robbins</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Emily Melo</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Erin Ronayne</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Frances Olson-Avina</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Grace Grindrod-Feeny</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">850</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1050</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Greg Johnson</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">5650</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">5700</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Heidi Hakseth</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Ingrid Kallick</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">2850</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">3150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Jacob Nelson</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">225</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Jake Severson</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">325</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">325</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Japhy Wright-Miller</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Jason Compton</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Jason Ocker</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Jeff Klem</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Jenna Side</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Jennifer Russ</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1250</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">John Morgan</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Josh Epstein</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Juli Johnson</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Justin Schober</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Kären Miskimen</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Kathleen Magnuson</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Katie Ramos</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Kay Hoel</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Kayla  Stelzel</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Kelly Fitzgerald</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Kelly Maxwell</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Kurt Mc Ginnis Brown</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">250</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Laura Detert</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Lindsey Hoe-Neds</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">500</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Mari Mitchell</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Marty Peters</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Mary Conroy</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Matt Haag</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Matt Kenyon</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">7925</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">8225</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Maurice Longino</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Megan Duster</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Michael A Levine</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Michael Tooher</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">250</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">500</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Miranda Beadle</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">N-Dig0</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">7575</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">7675</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Nick Salimes</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Nika Assaratta</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Odari Kimani</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">3610</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">3910</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Olivia Wine</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Page Metcalf</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Patricia Micetic</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">600</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Patrick Robbins</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">? 1800+</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">? 1900+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Paul Lorentz</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Petrovnia McIntosh</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Richard S. Bunk</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Robin Gee</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Ron Collins</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">1950</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Sarah Whelan</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Scott Fraizer</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">? 2325</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">? 2400+</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Sean Langenecker</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">400</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Sean McLean</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Sharon Milliken </Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Sharon White</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">350</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">500</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Shaun Jacobs (Petts)</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">6650</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">6850</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Simone LaPierre</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">525</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">625</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Stephanie Smith</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s36"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Susan Kurry</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Tess Klingele</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Tom Littrell</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">125</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">225</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Victoria Hurwitz</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Vimala Hile</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Weldon Kunzeman</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Wendi Marie Peters</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">Zach Heise</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-15]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(RC[-3]:RC[-1])"><Data ss:Type="Number">200</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.27"/>
+    <Footer x:Margin="0.27"/>
+    <PageMargins x:Bottom="0.46" x:Left="0.32" x:Right="0.26" x:Top="0.33"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>800</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Member 2014</Sort>
+   <Sort>Name</Sort>
+  </Sorting>
+ </Worksheet>
+</Workbook>
